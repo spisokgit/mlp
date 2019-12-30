@@ -1,0 +1,97 @@
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ git remote add origin http://github.com/spisokgit/mlp
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ git checkout -b ch06 origin/ch06
+fatal: 'origin/ch06'은(는) 커밋이 아니고 여기에서 'ch06' 브랜치를 만들 수 없습니다
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ git checkout -b ch06
+새로 만든 'ch06' 브랜치로 전환합니다
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ git branch
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ git checkout --track origin/ch06
+fatal: 'origin/ch06'은(는) 커밋이 아니고 여기에서 'ch06' 브랜치를 만들 수 없습니다
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ git remote origin
+error: 알 수 없는 하위 명령: origin
+사용법: git remote [-v | --verbose]
+   또는: git remote add [-t <브랜치>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <이름> <url>
+   또는: git remote rename <옛이름> <새이름>
+   또는: git remote remove <이름>
+   또는: git remote set-head <이름> (-a | --auto | -d | --delete | <브랜치>)
+   또는: git remote [-v | --verbose] show [-n] <이름>
+   또는: git remote prune [-n | --dry-run] <이름>
+   또는: git remote [-v | --verbose] update [-p | --prune] [(<그룹> | <리모트>)...]
+   또는: git remote set-branches [--add] <이름> <브랜치>...
+   또는: git remote get-url [--push] [--all] <이름>
+   또는: git remote set-url [--push] <이름> <새url> [<옛url>]
+   또는: git remote set-url --add <이름> <새url>
+   또는: git remote set-url --delete <이름> <url>
+
+    -v, --verbose         자세히 표시합니다 (하위 명령 앞에 와야 합니다)
+
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ git remote origin --verbose
+error: 알 수 없는 하위 명령: origin
+사용법: git remote [-v | --verbose]
+   또는: git remote add [-t <브랜치>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <이름> <url>
+   또는: git remote rename <옛이름> <새이름>
+   또는: git remote remove <이름>
+   또는: git remote set-head <이름> (-a | --auto | -d | --delete | <브랜치>)
+   또는: git remote [-v | --verbose] show [-n] <이름>
+   또는: git remote prune [-n | --dry-run] <이름>
+   또는: git remote [-v | --verbose] update [-p | --prune] [(<그룹> | <리모트>)...]
+   또는: git remote set-branches [--add] <이름> <브랜치>...
+   또는: git remote get-url [--push] [--all] <이름>
+   또는: git remote set-url [--push] <이름> <새url> [<옛url>]
+   또는: git remote set-url --add <이름> <새url>
+   또는: git remote set-url --delete <이름> <url>
+
+    -v, --verbose         자세히 표시합니다 (하위 명령 앞에 와야 합니다)
+
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ git status
+현재 브랜치 ch06
+
+아직 커밋이 없습니다
+
+추적하지 않는 파일:
+  (커밋할 사항에 포함하려면 "git add <파일>..."을 사용하십시오)
+
+	.ipynb_checkpoints/
+	6-2_PCA.ipynb
+	6-3_LDA(Linear Discriminant Analysis).ipynb
+	6-3_LDA_me.ipynb
+	6-4_6_5_SVD & NMF.ipynb
+	Untitled.ipynb
+	ch06/
+
+커밋할 사항을 추가하지 않았지만 추적하지 않는 파일이 있습니다 (추적하려면 "git
+add"를 사용하십시오)
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ git fetch origin ch06
+warning: https://github.com/spisokgit/mlp/(으)로 리다이렉트
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+오브젝트 묶음 푸는 중: 100% (3/3), 완료.
+http://github.com/spisokgit/mlp URL에서
+ * branch            ch06       -> FETCH_HEAD
+ * [새로운 브랜치]   ch06       -> origin/ch06
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ ls
+ 6-2_PCA.ipynb  '6-3_LDA(Linear Discriminant Analysis).ipynb'   6-3_LDA_me.ipynb  '6-4_6_5_SVD & NMF.ipynb'   Untitled.ipynb   ch06
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ git status
+현재 브랜치 ch06
+
+아직 커밋이 없습니다
+
+추적하지 않는 파일:
+  (커밋할 사항에 포함하려면 "git add <파일>..."을 사용하십시오)
+
+	.ipynb_checkpoints/
+	6-2_PCA.ipynb
+	6-3_LDA(Linear Discriminant Analysis).ipynb
+	6-3_LDA_me.ipynb
+	6-4_6_5_SVD & NMF.ipynb
+	Untitled.ipynb
+	ch06/
+
+커밋할 사항을 추가하지 않았지만 추적하지 않는 파일이 있습니다 (추적하려면 "git
+add"를 사용하십시오)
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ git merge FETCH_HEAD
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ ls
+ 6-2_PCA.ipynb   6-2_PCA_me.ipynb  '6-3_LDA(Linear Discriminant Analysis).ipynb'   6-3_LDA_me.ipynb  '6-4_6_5_SVD & NMF.ipynb'   Untitled.ipynb   ch06
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/6장$ 
+
