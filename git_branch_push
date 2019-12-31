@@ -1,0 +1,54 @@
+sch@G3:~/mlp/ml-definitive-guide/7장$ git init
+/home/sch/mlp/ml-definitive-guide/7장/.git/ 안의 빈 깃 저장소를 다시 초기화했습니다
+sch@G3:~/mlp/ml-definitive-guide/7장$ git add 7-1_KMeans_me.ipynb 
+sch@G3:~/mlp/ml-definitive-guide/7장$ git commit -m "ch07"
+[master (최상위-커밋) aae97de] ch07
+ 1 file changed, 804 insertions(+)
+ create mode 100644 7-1_KMeans_me.ipynb
+sch@G3:~/mlp/ml-definitive-guide/7장$ git checkout -b ch07
+새로 만든 'ch07' 브랜치로 전환합니다
+sch@G3:~/mlp/ml-definitive-guide/7장$ git remote add origin github.com/spisokgit/mlp 
+sch@G3:~/mlp/ml-definitive-guide/7장$ git push origin ch07
+fatal: 'github.com/spisokgit/mlp' does not appear to be a git repository
+fatal: 리모트 저장소에서 읽을 수 없습니다
+
+올바른 접근 권한이 있는지, 그리고 저장소가 있는지
+확인하십시오.
+sch@G3:~/mlp/ml-definitive-guide/7장$ git status
+현재 브랜치 ch07
+추적하지 않는 파일:
+  (커밋할 사항에 포함하려면 "git add <파일>..."을 사용하십시오)
+
+	.ipynb_checkpoints/
+	7-1_KMeans.ipynb
+	7-2_Cluster evaluation.ipynb
+	7-3_Mean_Shift.ipynb
+	7-4_Gaussian_Mixture_Model.ipynb
+	7-5_DBSCAN.ipynb
+	7-6_Clustering_Practice_Customer_Segmentation.ipynb
+
+커밋할 사항을 추가하지 않았지만 추적하지 않는 파일이 있습니다 (추적하려면 "git
+add"를 사용하십시오)
+sch@G3:~/mlp/ml-definitive-guide/7장$ git remote add origin http://github.com/spisokgit/mlp
+fatal: origin 리모트가 이미 있습니다.
+sch@G3:~/mlp/ml-definitive-guide/7장$ git push origin ch07
+fatal: 'github.com/spisokgit/mlp' does not appear to be a git repository
+fatal: 리모트 저장소에서 읽을 수 없습니다
+
+올바른 접근 권한이 있는지, 그리고 저장소가 있는지
+확인하십시오.
+sch@G3:~/mlp/ml-definitive-guide/7장$ git push http://github.com/spisokgit/mlp ch07
+warning: https://github.com/spisokgit/mlp/(으)로 리다이렉트
+오브젝트 개수 세는 중: 3, 완료.
+Delta compression using up to 12 threads.
+오브젝트 압축하는 중: 100% (2/2), 완료.
+오브젝트 쓰는 중: 100% (3/3), 231.94 KiB | 13.64 MiB/s, 완료.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'ch07' on GitHub by visiting:
+remote:      https://github.com/spisokgit/mlp/pull/new/ch07
+remote: 
+To http://github.com/spisokgit/mlp
+ * [new branch]      ch07 -> ch07
+sch@G3:~/mlp/ml-definitive-guide/7장$ 
+
