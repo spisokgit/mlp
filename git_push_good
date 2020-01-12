@@ -1,0 +1,32 @@
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/7장$ git clone -b ch07 --single-branch http://github.com/spisokgit/mlp
+'mlp'에 복제합니다...
+warning: https://github.com/spisokgit/mlp/(으)로 리다이렉트
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 15 (delta 2), reused 10 (delta 0), pack-reused 0
+오브젝트 묶음 푸는 중: 100% (15/15), 완료.
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/7장$ cd mlp
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/7장/mlp$ ls
+ 7-1_KMeans_me.ipynb   '7-2_cluster_evaluation_me(silhouette).ipynb'  '7-4_GMM_Gaussian_Mixture_Model_me .ipynb'   git_branch_push
+ 7-1_KMeans_me2.ipynb   7-3_Mean_shift_me.ipynb                        7-5_DBSCAN_me.ipynb
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/7장/mlp$ cd ..
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/7장$ cp 7-6_Customer_segmentation_me.ipynb 'Online Retail.xlsx' ./mlp
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/7장$ cd mlp
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/7장/mlp$ git add 7-6_Customer_segmentation_me.ipynb 'Online Retail.xlsx' 
+gisch@B360M-DS3H:~/mlp/ml-definitive-guide/7장/mlp$ git commit -m "ch07"
+[ch07 51a8dd2] ch07
+ 2 files changed, 936 insertions(+)
+ create mode 100644 7-6_Customer_segmentation_me.ipynb
+ create mode 100644 Online Retail.xlsx
+sch@B360M-DS3H:~/mlp/ml-definitive-guide/7장/mlp$ git push origin ch07
+warning: https://github.com/spisokgit/mlp/(으)로 리다이렉트
+오브젝트 개수 세는 중: 4, 완료.
+Delta compression using up to 12 threads.
+오브젝트 압축하는 중: 100% (4/4), 완료.
+오브젝트 쓰는 중: 100% (4/4), 22.03 MiB | 3.77 MiB/s, 완료.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To http://github.com/spisokgit/mlp
+   9810f19..51a8dd2  ch07 -> ch07
+
