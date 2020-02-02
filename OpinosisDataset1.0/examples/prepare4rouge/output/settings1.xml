@@ -1,0 +1,93 @@
+<ROUGE_EVAL version="1.5.5">
+<EVAL ID="1">
+<PEER-ROOT>systems</PEER-ROOT>
+<MODEL-ROOT>models</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SEE"></INPUT-FORMAT>
+<PEERS>
+<P ID="baseline">accuracy_garmin_nuvi_255W_gps.baseline.html</P>
+<P ID="G5S2R2_NOCOLLAPSE">accuracy_garmin_nuvi_255W_gps.G5S2R2_NOCOLLAPSE.system.html</P>
+<P ID="G5S2R2_NOCOLLAPSE_NODUPELIM">accuracy_garmin_nuvi_255W_gps.G5S2R2_NOCOLLAPSE_NODUPELIM.system.html</P>
+<P ID="G5S2R2_NODUPELIM">accuracy_garmin_nuvi_255W_gps.G5S2R2_NODUPELIM.system.html</P></PEERS>
+
+		<MODELS>
+
+<M ID="2">accuracy_garmin_nuvi_255W_gps.2.gold.html</M>
+<M ID="3">accuracy_garmin_nuvi_255W_gps.3.gold.html</M>
+<M ID="4">accuracy_garmin_nuvi_255W_gps.4.gold.html</M>
+<M ID="5">accuracy_garmin_nuvi_255W_gps.5.gold.html</M>
+</MODELS>
+	</EVAL>
+<EVAL ID="2">
+<PEER-ROOT>systems</PEER-ROOT>
+<MODEL-ROOT>models</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SEE"></INPUT-FORMAT>
+<PEERS>
+<P ID="baseline">accuracy_garmin_nuvi_255W_gps.baseline.html</P>
+<P ID="G5S2R2_NOCOLLAPSE">accuracy_garmin_nuvi_255W_gps.G5S2R2_NOCOLLAPSE.system.html</P>
+<P ID="G5S2R2_NOCOLLAPSE_NODUPELIM">accuracy_garmin_nuvi_255W_gps.G5S2R2_NOCOLLAPSE_NODUPELIM.system.html</P>
+<P ID="G5S2R2_NODUPELIM">accuracy_garmin_nuvi_255W_gps.G5S2R2_NODUPELIM.system.html</P></PEERS>
+
+		<MODELS>
+
+<M ID="1">accuracy_garmin_nuvi_255W_gps.1.gold.html</M>
+<M ID="3">accuracy_garmin_nuvi_255W_gps.3.gold.html</M>
+<M ID="4">accuracy_garmin_nuvi_255W_gps.4.gold.html</M>
+<M ID="5">accuracy_garmin_nuvi_255W_gps.5.gold.html</M>
+</MODELS>
+	</EVAL>
+<EVAL ID="3">
+<PEER-ROOT>systems</PEER-ROOT>
+<MODEL-ROOT>models</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SEE"></INPUT-FORMAT>
+<PEERS>
+<P ID="baseline">accuracy_garmin_nuvi_255W_gps.baseline.html</P>
+<P ID="G5S2R2_NOCOLLAPSE">accuracy_garmin_nuvi_255W_gps.G5S2R2_NOCOLLAPSE.system.html</P>
+<P ID="G5S2R2_NOCOLLAPSE_NODUPELIM">accuracy_garmin_nuvi_255W_gps.G5S2R2_NOCOLLAPSE_NODUPELIM.system.html</P>
+<P ID="G5S2R2_NODUPELIM">accuracy_garmin_nuvi_255W_gps.G5S2R2_NODUPELIM.system.html</P></PEERS>
+
+		<MODELS>
+
+<M ID="1">accuracy_garmin_nuvi_255W_gps.1.gold.html</M>
+<M ID="2">accuracy_garmin_nuvi_255W_gps.2.gold.html</M>
+<M ID="4">accuracy_garmin_nuvi_255W_gps.4.gold.html</M>
+<M ID="5">accuracy_garmin_nuvi_255W_gps.5.gold.html</M>
+</MODELS>
+	</EVAL>
+<EVAL ID="4">
+<PEER-ROOT>systems</PEER-ROOT>
+<MODEL-ROOT>models</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SEE"></INPUT-FORMAT>
+<PEERS>
+<P ID="baseline">accuracy_garmin_nuvi_255W_gps.baseline.html</P>
+<P ID="G5S2R2_NOCOLLAPSE">accuracy_garmin_nuvi_255W_gps.G5S2R2_NOCOLLAPSE.system.html</P>
+<P ID="G5S2R2_NOCOLLAPSE_NODUPELIM">accuracy_garmin_nuvi_255W_gps.G5S2R2_NOCOLLAPSE_NODUPELIM.system.html</P>
+<P ID="G5S2R2_NODUPELIM">accuracy_garmin_nuvi_255W_gps.G5S2R2_NODUPELIM.system.html</P></PEERS>
+
+		<MODELS>
+
+<M ID="1">accuracy_garmin_nuvi_255W_gps.1.gold.html</M>
+<M ID="2">accuracy_garmin_nuvi_255W_gps.2.gold.html</M>
+<M ID="3">accuracy_garmin_nuvi_255W_gps.3.gold.html</M>
+<M ID="5">accuracy_garmin_nuvi_255W_gps.5.gold.html</M>
+</MODELS>
+	</EVAL>
+<EVAL ID="5">
+<PEER-ROOT>systems</PEER-ROOT>
+<MODEL-ROOT>models</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SEE"></INPUT-FORMAT>
+<PEERS>
+<P ID="baseline">accuracy_garmin_nuvi_255W_gps.baseline.html</P>
+<P ID="G5S2R2_NOCOLLAPSE">accuracy_garmin_nuvi_255W_gps.G5S2R2_NOCOLLAPSE.system.html</P>
+<P ID="G5S2R2_NOCOLLAPSE_NODUPELIM">accuracy_garmin_nuvi_255W_gps.G5S2R2_NOCOLLAPSE_NODUPELIM.system.html</P>
+<P ID="G5S2R2_NODUPELIM">accuracy_garmin_nuvi_255W_gps.G5S2R2_NODUPELIM.system.html</P></PEERS>
+
+		<MODELS>
+
+<M ID="1">accuracy_garmin_nuvi_255W_gps.1.gold.html</M>
+<M ID="2">accuracy_garmin_nuvi_255W_gps.2.gold.html</M>
+<M ID="3">accuracy_garmin_nuvi_255W_gps.3.gold.html</M>
+<M ID="4">accuracy_garmin_nuvi_255W_gps.4.gold.html</M>
+</MODELS>
+	</EVAL>
+
+</ROUGE_EVAL>

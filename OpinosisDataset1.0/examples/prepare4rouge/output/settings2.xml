@@ -1,0 +1,93 @@
+<ROUGE_EVAL version="1.5.5">
+<EVAL ID="6">
+<PEER-ROOT>systems</PEER-ROOT>
+<MODEL-ROOT>models</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SEE"></INPUT-FORMAT>
+<PEERS>
+<P ID="baseline">bathroom_bestwestern_hotel_sfo.baseline.html</P>
+<P ID="G5S2R2_NOCOLLAPSE">bathroom_bestwestern_hotel_sfo.G5S2R2_NOCOLLAPSE.system.html</P>
+<P ID="G5S2R2_NOCOLLAPSE_NODUPELIM">bathroom_bestwestern_hotel_sfo.G5S2R2_NOCOLLAPSE_NODUPELIM.system.html</P>
+<P ID="G5S2R2_NODUPELIM">bathroom_bestwestern_hotel_sfo.G5S2R2_NODUPELIM.system.html</P></PEERS>
+
+		<MODELS>
+
+<M ID="2">bathroom_bestwestern_hotel_sfo.2.gold.html</M>
+<M ID="3">bathroom_bestwestern_hotel_sfo.3.gold.html</M>
+<M ID="4">bathroom_bestwestern_hotel_sfo.4.gold.html</M>
+<M ID="5">bathroom_bestwestern_hotel_sfo.5.gold.html</M>
+</MODELS>
+	</EVAL>
+<EVAL ID="7">
+<PEER-ROOT>systems</PEER-ROOT>
+<MODEL-ROOT>models</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SEE"></INPUT-FORMAT>
+<PEERS>
+<P ID="baseline">bathroom_bestwestern_hotel_sfo.baseline.html</P>
+<P ID="G5S2R2_NOCOLLAPSE">bathroom_bestwestern_hotel_sfo.G5S2R2_NOCOLLAPSE.system.html</P>
+<P ID="G5S2R2_NOCOLLAPSE_NODUPELIM">bathroom_bestwestern_hotel_sfo.G5S2R2_NOCOLLAPSE_NODUPELIM.system.html</P>
+<P ID="G5S2R2_NODUPELIM">bathroom_bestwestern_hotel_sfo.G5S2R2_NODUPELIM.system.html</P></PEERS>
+
+		<MODELS>
+
+<M ID="1">bathroom_bestwestern_hotel_sfo.1.gold.html</M>
+<M ID="3">bathroom_bestwestern_hotel_sfo.3.gold.html</M>
+<M ID="4">bathroom_bestwestern_hotel_sfo.4.gold.html</M>
+<M ID="5">bathroom_bestwestern_hotel_sfo.5.gold.html</M>
+</MODELS>
+	</EVAL>
+<EVAL ID="8">
+<PEER-ROOT>systems</PEER-ROOT>
+<MODEL-ROOT>models</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SEE"></INPUT-FORMAT>
+<PEERS>
+<P ID="baseline">bathroom_bestwestern_hotel_sfo.baseline.html</P>
+<P ID="G5S2R2_NOCOLLAPSE">bathroom_bestwestern_hotel_sfo.G5S2R2_NOCOLLAPSE.system.html</P>
+<P ID="G5S2R2_NOCOLLAPSE_NODUPELIM">bathroom_bestwestern_hotel_sfo.G5S2R2_NOCOLLAPSE_NODUPELIM.system.html</P>
+<P ID="G5S2R2_NODUPELIM">bathroom_bestwestern_hotel_sfo.G5S2R2_NODUPELIM.system.html</P></PEERS>
+
+		<MODELS>
+
+<M ID="1">bathroom_bestwestern_hotel_sfo.1.gold.html</M>
+<M ID="2">bathroom_bestwestern_hotel_sfo.2.gold.html</M>
+<M ID="4">bathroom_bestwestern_hotel_sfo.4.gold.html</M>
+<M ID="5">bathroom_bestwestern_hotel_sfo.5.gold.html</M>
+</MODELS>
+	</EVAL>
+<EVAL ID="9">
+<PEER-ROOT>systems</PEER-ROOT>
+<MODEL-ROOT>models</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SEE"></INPUT-FORMAT>
+<PEERS>
+<P ID="baseline">bathroom_bestwestern_hotel_sfo.baseline.html</P>
+<P ID="G5S2R2_NOCOLLAPSE">bathroom_bestwestern_hotel_sfo.G5S2R2_NOCOLLAPSE.system.html</P>
+<P ID="G5S2R2_NOCOLLAPSE_NODUPELIM">bathroom_bestwestern_hotel_sfo.G5S2R2_NOCOLLAPSE_NODUPELIM.system.html</P>
+<P ID="G5S2R2_NODUPELIM">bathroom_bestwestern_hotel_sfo.G5S2R2_NODUPELIM.system.html</P></PEERS>
+
+		<MODELS>
+
+<M ID="1">bathroom_bestwestern_hotel_sfo.1.gold.html</M>
+<M ID="2">bathroom_bestwestern_hotel_sfo.2.gold.html</M>
+<M ID="3">bathroom_bestwestern_hotel_sfo.3.gold.html</M>
+<M ID="5">bathroom_bestwestern_hotel_sfo.5.gold.html</M>
+</MODELS>
+	</EVAL>
+<EVAL ID="10">
+<PEER-ROOT>systems</PEER-ROOT>
+<MODEL-ROOT>models</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SEE"></INPUT-FORMAT>
+<PEERS>
+<P ID="baseline">bathroom_bestwestern_hotel_sfo.baseline.html</P>
+<P ID="G5S2R2_NOCOLLAPSE">bathroom_bestwestern_hotel_sfo.G5S2R2_NOCOLLAPSE.system.html</P>
+<P ID="G5S2R2_NOCOLLAPSE_NODUPELIM">bathroom_bestwestern_hotel_sfo.G5S2R2_NOCOLLAPSE_NODUPELIM.system.html</P>
+<P ID="G5S2R2_NODUPELIM">bathroom_bestwestern_hotel_sfo.G5S2R2_NODUPELIM.system.html</P></PEERS>
+
+		<MODELS>
+
+<M ID="1">bathroom_bestwestern_hotel_sfo.1.gold.html</M>
+<M ID="2">bathroom_bestwestern_hotel_sfo.2.gold.html</M>
+<M ID="3">bathroom_bestwestern_hotel_sfo.3.gold.html</M>
+<M ID="4">bathroom_bestwestern_hotel_sfo.4.gold.html</M>
+</MODELS>
+	</EVAL>
+
+</ROUGE_EVAL>
